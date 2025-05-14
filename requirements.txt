@@ -1,0 +1,21 @@
+tensorflow
+keras
+pandas
+numpy
+jupyter
+notebook
+tqdm
+opencv-contrib-python
+scikit-learn
+
+
+# 1️⃣ Sequential model ko import karo
+from tensorflow.keras.models import Sequential, model_from_json
+
+# 2️⃣ Layers ko import karo
+from tensorflow.keras.layers import InputLayer   # Input define karta hai
+from tensorflow.keras.layers import Conv2D       # Convolutional Layer
+from tensorflow.keras.layers import MaxPooling2D # Pooling Layer
+from tensorflow.keras.layers import Dropout      # Dropout Layer
+from tensorflow.keras.layers import Flatten      # Flatten 2D → 1D
+from tensorflow.keras.layers import Dense        # Fully Connected Layers
